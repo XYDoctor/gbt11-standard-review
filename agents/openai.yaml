@@ -1,4 +1,4 @@
 interface:
   display_name: "GB/T 1.1 标准审查"
-  short_description: "按 GB/T 1.1—2020 和审查手册硬审、修改和润色标准文本。"
-  default_prompt: "请按 GB/T 1.1—2020 标准文本审查工作手册，对我提供的标准草案进行硬审并直接修改完善，输出审查清单和最终稿。"
+  short_description: "一次调用完成标准全文审查、逐章修订与专项复核，交付审查报告和修订版 Word。"
+  default_prompt: "请使用 $gbt11-standard-review 审查我提供的标准文件，自动完成三轮审查与修订，保留原文件，交付审查说明及修改建议和完整修订版 Word。"
