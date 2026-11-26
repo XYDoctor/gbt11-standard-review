@@ -1,0 +1,4 @@
+interface:
+  display_name: "GB/T 1.1 标准审查"
+  short_description: "按 GB/T 1.1—2020 和审查手册硬审、修改和润色标准文本。"
+  default_prompt: "请按 GB/T 1.1—2020 标准文本审查工作手册，对我提供的标准草案进行硬审并直接修改完善，输出审查清单和最终稿。"
